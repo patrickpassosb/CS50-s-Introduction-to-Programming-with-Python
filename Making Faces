@@ -1,1 +1,9 @@
-c
+def convert(s):
+	s = s.replace(":)", "🙂")
+	s = s.replace(":(", "x")
+	return s
+
+
+
+s = input("write something ")
+print (convert(s))
