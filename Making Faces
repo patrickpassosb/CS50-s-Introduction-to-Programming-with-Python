@@ -1,6 +1,6 @@
 def convert(s):
 	s = s.replace(":)", "🙂")
-	s = s.replace(":(", "x")
+	s = s.replace(":(", "🙁")
 	return s
 
 
