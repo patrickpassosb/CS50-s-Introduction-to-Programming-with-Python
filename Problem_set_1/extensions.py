@@ -1,4 +1,6 @@
-ans = input("File name: ")
+ans = input("File name: ").lower()
+
+ans = ans.replace(" ", "")
 
 if ans.endswith(".gif"):
 	print("image/gif")
