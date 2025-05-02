@@ -1,5 +1,7 @@
 greet = input("Greeting: " ).lower()
 
+greet = greet.replace(" ", "")
+
 if greet.startswith("hello"):
 	print("$0")
 elif greet.startswith("h"):
